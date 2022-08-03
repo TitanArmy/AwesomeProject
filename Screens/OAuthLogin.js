@@ -15,7 +15,7 @@ export default function OAuthLogin({navigation}) {
      
     });
   }, [])
-  
+
     const GoogleSignUp = async () => {
         try {
           await GoogleSignin.hasPlayServices();
